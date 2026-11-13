@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfólio | Desenvolvedor Web & Mobile</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <main class="container py-5 wrap">
+            <section id="home" class="page active">
+                <div class="perfil">
+                    <div class="foto-perfil">
+                        <img src="./img/foto-perfil-1.png" alt="">
+                    </div>
+
+                    <div class="titulo-1">PORTFÓLIO PROFISSIONAL</div>
+
+                    <h1 class="nome mt-2">Denis Fonseca</h1>
+
+                    <div class="role">Desenvolvedor Web &amp; Mobile</div>
+
+                    <div class="sub mt-1">Analista de Redes | Infraestrutura de TI | Suporte Técnico</div>
+
+                    <p class="intro mt-3">
+                        Tecnologia que conecta, protege e transforma negócios. Conheça minhas áreas de atuação e soluções para profissionais e empresas.
+                    </p>
+                </div>
+
+                <div class="mx-auto" style="max-width:590px">
+                    <a class="link" href="https://i92.tech/" target="_blank" rel="noopener">
+                        <span class="ico">&nearr;</span>
+                        <span>
+                            <b>Conheça a i92.tech</b>
+                            <small>IA, automação, IoT e soluções digitais</small>
+                        </span>
+                        <span class="arrow">&rarr;</span>
+                    </a>
+
+                    <a class="link" href="#infraestrutura" onclick="showPage('infraestrutura');return false">
+                        <span class="ico">&#8984;</span>
+                        
+                        <span>
+                            <b>Infraestrutura de TI</b>
+                            <small>Cabeamento, racks, servidores e Wi-Fi</small>
+                        </span>
+
+                        <span class="arrow">&rarr;</span>
+                    </a>
+
+                    <a class="link" href="#redes" onclick="showPage('redes');return false">
+                        <span class="ico">⌁</span>
+                        <span>
+                            <b>Analista de Redes</b>
+
+                            <small>Configuração, monitoramento e segurança</small>
+                        </span>
+                        
+                        <span class="arrow">&rarr;</span>
+                    </a>
+
+                    <a class="link" href="#suporte" onclick="showPage('suporte');return false">
+                        <span class="ico">&#9881;</span>
+                        
+                        <span>
+                            <b>Analista de Suporte de TI</b>
+                            
+                            <small>Diagnóstico e resolução de problemas</small>
+                        </span>
+                        
+                        <span class="arrow">&rarr;</span>
+                    </a>
+
+                    <a class="link" href="#web" onclick="showPage('web');return false">
+                        <span class="ico">&lt;/&gt;</span>
+                        
+                        <span>
+                            <b>Desenvolvedor Web</b>
+                            
+                            <small>Sites, interfaces e aplicações</small>
+                        </span>
+                        
+                        <span class="arrow">&rarr;</span>
+                    </a>
+
+                    <a class="link" href="#mobile" onclick="showPage('mobile');return false">
+                        <span class="ico">&#9647;</span>
+                        
+                        <span>
+                            <b>Desenvolvedor Mobile</b>
+                            
+                            <small>Aplicativos com React Native</small>
+                        </span>
+                        
+                        <span class="arrow">&rarr;</span>
+                    </a>
+
+                    <div class="cta mt-4 text-center">
+                        <h2 class="h5 fw-bold">Precisa de uma solução para sua empresa?</h2>
+                        
+                        <p class="muted">
+                            Entre em contato para contratar serviços, explicar sua necessidade ou solicitar um orçamento.
+                        </p>
+                        
+                        <a class="btn btn-success w-100" href="https://wa.me/5593981107258?text=Olá, Denis! gostaria de faser um *orçamento*." target="_blank">
+                            Solicitar orçamento pelo WhatsApp
+                        </a>
+                    </div>
+
+                    <p class="text-center muted small mt-4">
+                        &copy; 
+                        <span class="year"></span> 
+                        Denis Fonseca Ferreira
+                    </p>
+                </div>
+            </section>
+
+            <section id="infraestrutura" class="page">
+                <a class="back" href="#" onclick="showPage('home');return false">
+                    &larr;&nbsp; Voltar ao início
+                </a>
+                
+                <div class="hero">
+                    <div class="eyebrow">ÁREA DE ATUAÇÃO</div>
+                    
+                    <h1>Infraestrutura de TI</h1>
+                    
+                    <p class="muted mb-0">
+                        Planejamento, instalação e organização da estrutura física que mantém computadores, servidores e dispositivos conectados.
+                    </p>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/Cabeamento_Estruturado.png" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Cabeamento estruturado</h3>
+                                
+                                <p>
+                                    Infraestrutura cabeada para conectar estações, impressoras, servidores e equipamentos.
+                                </p>
+
+                                <ul>
+                                    <li>Cabeamento UTP e pontos de rede</li>
+                                    <li>Identificação e organização</li>
+                                    <li>Testes de conectividade</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/Racks_e_Servidores.png" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Racks e servidores</h3>
+                                
+                                <p>
+                                    Montagem e organização de racks, patch panels, switches e servidores.
+                                </p>
+
+                                <ul>
+                                    <li>Organização física</li>
+                                    <li>Identificação de portas e cabos</li>
+                                    <li>Ventilação e manutenção</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/Redes_Wi‑Fi_Ubiquiti.png" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Redes Wi-Fi</h3>
+                                
+                                <p>
+                                    Instalação e posicionamento de pontos de acesso para melhorar cobertura.
+                                </p>
+
+                                <ul>
+                                    <li>Instalação de access points</li>
+                                    <li>Configuração de SSID e senha</li>
+                                    <li>Avaliação de cobertura</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="redes" class="page">
+                <a class="back" href="#" onclick="showPage('home');return false">
+                    &larr;&nbsp; Voltar ao início
+                </a>
+                
+                <div class="hero">
+                    <div class="eyebrow">ÁREA DE ATUAÇÃO</div>
+                    
+                    <h1>Analista de Redes</h1>
+                    
+                    <p class="muted mb-0">
+                        Administração, configuração e acompanhamento da rede para manter a comunicação entre dispositivos e reduzir falhas.
+                    </p>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/Roteadores_e_Switches.png" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Roteadores e switches</h3>
+                                
+                                <p>
+                                    Configuração dos equipamentos que direcionam o tráfego e conectam dispositivos.
+                                </p>
+                                
+                                <ul>
+                                    <li>LAN e VLAN</li>
+                                    <li>Endereçamento IP e DHCP</li>
+                                    <li>Roteamento</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/monitoramento_zabbix_grafana.jpg" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Monitoramento</h3>
+                                <p>
+                                    Identificação de lentidão, perda de pacotes e falhas de comunicação.
+                                </p>
+                                
+                                <ul>
+                                    <li>Diagnóstico de conectividade</li>
+                                    <li>Testes de latência</li>
+                                    <li>Análise de logs</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/seguranca_rede.jpg" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Segurança de rede</h3>
+                                
+                                <p>
+                                    Medidas para controlar acessos e reduzir riscos na infraestrutura.
+                                </p>
+                                
+                                <ul>
+                                    <li>Segmentação de rede</li>
+                                    <li>Controle de acesso</li>
+                                    <li>Boas práticas de firewall</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="suporte" class="page">
+                <a class="back" href="#" onclick="showPage('home');return false">
+                    &larr;&nbsp; Voltar ao início
+                </a>
+                
+                <div class="hero">
+                    <div class="eyebrow">ÁREA DE ATUAÇÃO</div>
+                    
+                    <h1>Analista de Suporte de TI</h1>
+                    <p class="muted mb-0">
+                        Atendimento técnico para usuários e empresas, com diagnóstico, manutenção e resolução de incidentes.
+                    </p>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/service_desk.jpg" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Service Desk</h3>
+                                
+                                <p>
+                                    Atendimento de chamados, orientação aos usuários e registro das soluções.
+                                </p>
+                                
+                                <ul>
+                                    <li>Triagem de chamados</li>
+                                    <li>Suporte remoto e presencial</li>
+                                    <li>Documentação de incidentes</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/diagnostico_tecnico.jpg" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Diagnóstico técnico</h3>
+                                
+                                <p>
+                                    Investigação de falhas em computadores, notebooks, sistemas e aplicativos.
+                                </p>
+                                
+                                <ul>
+                                    <li>Diagnóstico de erros</li>
+                                    <li>Drivers e programas</li>
+                                    <li>Windows e Linux</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/manutencao.jpg" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Manutenção</h3>
+                                
+                                <p>
+                                    Cuidados para melhorar a confiabilidade dos equipamentos e corrigir problemas.
+                                </p>
+                                
+                                <ul>
+                                    <li>Limpeza preventiva</li>
+                                    <li>Verificação de componentes</li>
+                                    <li>Atualizações</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="web" class="page">
+                <a class="back" href="#" onclick="showPage('home');return false">
+                    &larr;&nbsp; Voltar ao início
+                </a>
+                
+                <div class="hero">
+                    <div class="eyebrow">ÁREA DE ATUAÇÃO</div>
+                    
+                    <h1>Desenvolvedor Web</h1>
+                    
+                    <p class="muted mb-0">
+                        Desenvolvimento de interfaces e aplicações web com foco em usabilidade, organização, responsividade e integração com dados.
+                    </p>
+                </div>
+                
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/front_end.jpg" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Front-end</h3>
+                                
+                                <p>
+                                    Construção da parte visual e interativa de sites e aplicações.
+                                </p>
+                                
+                                <ul>
+                                    <li>HTML5 e CSS3</li>
+                                    <li>Bootstrap 5</li>
+                                    <li>JavaScript e React.js</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/back_end.jpg" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Back-end</h3>
+                                
+                                <p>
+                                    Lógica da aplicação, processamento de informações e comunicação entre sistemas.
+                                </p>
+                                
+                                <ul>
+                                    <li>Python e bibliotecas</li>
+                                    <li>APIs e regras de negócio</li>
+                                    <li>Integração com bancos</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/banco_de_dados.jpg" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Banco de dados</h3>
+                                
+                                <p>
+                                    Armazenamento, consulta e organização dos dados das aplicações.
+                                </p>
+                                
+                                <ul>
+                                    <li>SQLite e SQL</li>
+                                    <li>MySQL e PostgreSQL</li>
+                                    <li>MongoDB</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                <h2 class="h5 mt-4">Tecnologias</h2>
+                
+                <span class="chip">HTML5</span>
+                
+                <span class="chip">CSS3</span>
+                
+                <span class="chip">Bootstrap 5</span>
+                
+                <span class="chip">JavaScript</span>
+                
+                <span class="chip">React.js</span>
+                
+                <span class="chip">Python</span>
+                
+                <span class="chip">SQLite</span>
+                
+                <span class="chip">SQL</span>
+                
+                <span class="chip">MySQL</span>
+                
+                <span class="chip">PostgreSQL</span>
+                
+                <span class="chip">MongoDB</span>
+            </section>
+
+            <section id="mobile" class="page">
+                <a class="back" href="#" onclick="showPage('home');return false">
+                    &larr;&nbsp; Voltar ao início
+                </a>
+                
+                <div class="hero">
+                    <div class="eyebrow">ÁREA DE ATUAÇÃO</div>
+                    
+                    <h1>Desenvolvedor Mobile</h1>
+                    
+                    <p class="muted mb-0">
+                        Desenvolvimento de aplicativos móveis com React Native para criar experiências em smartphones.
+                    </p>
+                </div>
+                
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/Aplicativos React Native.jpg" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Aplicativos React Native</h3>
+                                
+                                <p>
+                                    Construção de aplicativos com componentes reutilizáveis.
+                                </p>
+                                
+                                <ul>
+                                    <li>React Native</li>
+                                    <li>Componentes reutilizáveis</li>
+                                    <li>Navegação entre telas</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/Interfaces mobile.jpg" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Interfaces mobile</h3>
+                                
+                                <p>
+                                    Criação de telas adaptadas ao uso em smartphones.
+                                </p>
+                                
+                                <ul>
+                                    <li>Layout adaptável</li>
+                                    <li>Formulários e listas</li>
+                                    <li>Experiência do usuário</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-md-4">
+                        <article class="service">
+                            <div class="banner">
+                                <img src="./img/Integrações.jpg" alt="">
+                            </div>
+                            
+                            <div class="body">
+                                <h3>Integrações</h3>
+                                
+                                <p>
+                                    Conexão do aplicativo com serviços e dados.
+                                </p>
+                                
+                                <ul>
+                                    <li>Consumo de APIs</li>
+                                    <li>Integração com back-end</li>
+                                    <li>Persistência de dados</li>
+                                </ul>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+                <h2 class="h5 mt-4">Tecnologia</h2>
+
+                <span class="chip">React Native</span>
+                
+                <span class="chip">JavaScript</span>
+            </section>
+        </main>
+        
+        <script src="./js/app.js"></script>
+    </body>
+</html>
